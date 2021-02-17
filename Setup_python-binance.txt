@@ -1,4 +1,4 @@
-compat with python version below 3.8.6
+compatible with python version 3.8.6 or below
 pip install python-binance
 
 may occur error red massages with VS14.0 and rc.exe
