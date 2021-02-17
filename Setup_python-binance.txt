@@ -1,0 +1,12 @@
+compat with python version below 3.8.6
+pip install python-binance
+
+may occur error red massages with VS14.0 and rc.exe
+
+install VS C++ Community 2015 update 3
+Download setup file: https://visualstudio.microsoft.com/vs/older-downloads/
+with custom installation, check Common tools in Feature > Programming Languages> Visual C++ and install
+ref: https://www.idevcsharp.com/124-how-to-fix-python-microsoft-visual-c-14-0-is-required/
+
+rc.exe resolve with add path environment and copy file rc.exe, rcdll.dll to destination folder; described in this link
+https://stackoverflow.com/questions/14372706/visual-studio-cant-build-due-to-rc-exe
